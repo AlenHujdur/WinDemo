@@ -5,6 +5,10 @@ VisualStudioVersion = 14.0.25420.1
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WinDemo", "WinDemo\WinDemo.csproj", "{68E1A673-51FA-41FC-A13B-97B0B3419D4E}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ASPDemo", "..\ASPDemo\ASPDemo.csproj", "{E579E4DE-5A65-43AA-8C54-A96FCEBFDCBE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DataLayer", "DataLayer\DataLayer.csproj", "{40DFAE1E-6B63-4A39-B186-892052A637F8}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +19,14 @@ Global
 		{68E1A673-51FA-41FC-A13B-97B0B3419D4E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{68E1A673-51FA-41FC-A13B-97B0B3419D4E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{68E1A673-51FA-41FC-A13B-97B0B3419D4E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E579E4DE-5A65-43AA-8C54-A96FCEBFDCBE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E579E4DE-5A65-43AA-8C54-A96FCEBFDCBE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E579E4DE-5A65-43AA-8C54-A96FCEBFDCBE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E579E4DE-5A65-43AA-8C54-A96FCEBFDCBE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{40DFAE1E-6B63-4A39-B186-892052A637F8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{40DFAE1E-6B63-4A39-B186-892052A637F8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{40DFAE1E-6B63-4A39-B186-892052A637F8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{40DFAE1E-6B63-4A39-B186-892052A637F8}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
