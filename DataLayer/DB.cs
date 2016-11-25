@@ -16,9 +16,11 @@ namespace DataLayer
             {
 
                 string connStr = ConfigurationManager.ConnectionStrings["AWConnection"].ToString();
+
                 SqlConnectionStringBuilder sb = new SqlConnectionStringBuilder(connStr);
                 sb.ApplicationName = ApplicationName ?? sb.ApplicationName;
                 sb.ConnectTimeout = (ConnectionTimeout > 0) ? ConnectionTimeout : sb.ConnectTimeout;
+
                 return sb.ToString();
             }
         }
